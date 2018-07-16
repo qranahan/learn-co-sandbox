@@ -1,7 +1,10 @@
-var myVariable = "hot dogs" // assigns "hot dogs"
-myVariable 
-// > "hot dogs"
+var myName = "Beyoncé" // this variable is available everywhere
  
-myVariable = "veggie burgers" // reassigns the variable to "veggie burgers"
-myVariable
-// > "veggie burgers"
+{
+  let myFavoriteFood = "grilled cheese" // this variable is only available inside the curly braces
+  var myFavoriteColor = "green" // this variable is available everywhere
+  console.log("My name is " + myName + ", my favorite food is " + myFavoriteFood + " and my favorite color is " + myFavoriteColor)
+  // in here, we have access to the variables myName, myFavoriteFood and myFavoriteColor
+}
+  // out here, we only have access to the variables myName and myFavoriteColor
+  
